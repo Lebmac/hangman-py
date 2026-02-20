@@ -160,5 +160,5 @@ while True:
         case 2:
             inp = input("You won!\ntype RESET or QUIT\n\n>")
         case 3:
-            inp = input("You lost...\ntype RESET or QUIT\n\n>")
+            inp = input(f"You lost... the word was {game_word}\ntype RESET or QUIT\n\n>")
 
